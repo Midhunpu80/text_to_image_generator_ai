@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart';
+import 'package:imagegen/view/screen/home.dart';
 
 class PostHttpOverrides extends HttpOverrides {
   @override
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: Scaffold(
-        body: Container(),
+        body: home(),
       ),
     );
   }
